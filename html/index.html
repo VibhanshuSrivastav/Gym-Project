@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spartan Gym</title>
+    <link rel="stylesheet" href="..//css/bootstrap.min.css">
+    <link rel="stylesheet" href="customcss/Gym.css" type="text/css">
+    <link rel="stylesheet" href="customcss/media.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+    </style>
+</head>
+
+<!-- @%@%@%@%@%@%@%@%@%@%@%@ HEADER START @%@%@%@%@%@%@%@%@%@%@%@ -->
+
+
+<body class=" fw-bold" style="font-family: 'Exo', sans-serif;;">
+    <!-- ******* navbar start ******* -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-md navbar-light yellowvarient fixed-top ">
+                    <a href="index.html" class="navbar-brand fw-bold fs-1">
+                        Spartan<img src="..//html/img/spartanicon.png" alt="">
+                    </a>
+                    <button class="navbar-toggler btn btn-dark" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav ms-auto  fw-bold">
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" id="navdropdown" role="button" class="nav-link dropdown-toggle"
+                                    data-bs-toggle="dropdown">
+                                    PROGRAMS
+                                </a>
+                                <div class="dropdown-menu bg-dark">
+                                    <a href="transformation.html" class="dropdown-item text-warning">Transformation</a>
+                                    <div class="dropdown-divider border border-light"></div>
+                                    <a href="transformation.html" class="dropdown-item text-warning">Quick Weight
+                                        Loss</a>
+                                    <div class="dropdown-divider border border-light"></div>
+                                    <a href="transformation.html" class="dropdown-item text-warning">Rejuvenation</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a href="#" id="navdropdown" role="button" class="nav-link dropdown-toggle"
+                                    data-bs-toggle="dropdown">
+                                    SUPPLEMENTS
+                                </a>
+                                <div class="dropdown-menu bg-dark">
+                                    <a href="BCAAs.html" class="dropdown-item text-warning">BCAAs</a>
+                                    <div class="dropdown-divider border border-light"></div>
+                                    <a href="Protein.html" class="dropdown-item text-warning">Protien Powders</a>
+                                    <div class="dropdown-divider border border-light"></div>
+                                    <a href="creatine&glutamine.html" class="dropdown-item text-warning">Creatine &
+                                        Glutamine</a>
+                                    <div class="dropdown-divider border border-light"></div>
+                                    <a href="preworkout.html" class="dropdown-item text-warning">Pre-Workout</a>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="Gallery.html" class="nav-link">GALLERY</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="membership.html" class="nav-link">MEMBERSHIP</a>
+                            </li>
+                            <li>
+                                <a href="joinhere.html" class="btn btn-dark text-warning btn-outline-dark">Join
+                                    here</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- ******** navbar end ********* -->
+    
+    <!-- ########### carousel start #############-->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000" style="height:100vh;">
+                <img src="../html/img/Spartangymcover.jpg" class="d-block  w-100" alt="...">
+                <div class="carousel-caption  d-block yellowvarient">
+                    <h1>Spartan Gym</h1>
+                    <p>The Only Bad Workout Is The One That Didn't Happen.</p>
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Free
+                        Trial</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000" style="height:100vh;">
+                <img src="../html/img/gokucarousel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-block yellowvarient">
+                    <h1>Spartan Gym</h1>
+                    <p>In The Gym Be Like Goku - Always Striving For A New Level Of Power.</p>
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Free
+                        Trial</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="height:100vh;">
+                <img src="../html/img/sukunacarousel3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-block yellowvarient">
+                    <h1>Spartan Gym</h1>
+                    <p>Sukuna Does Not Back Down From A Fight And Neither You Should In The Gym.</p>
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Free
+                        Trial</button>
+                </div>
+            </div>
+            <div class="align-self-center mt-3 yellowvarient rounded-3"><button type="button" class="btn"
+                    data-bs-toggle="modal" data-bs-target="#myModal">Free Trial</button></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- ########### carousel end #############-->
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog ">
+            <div class="modal-content yellowvarient">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h1>Spartan</h1><img src="../html/img/spartanicon.png" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <h3>Want a 7 days Free Trial?</h3>
+                    <p>If you are new to spartan,come & try us out Free for 7 Days.</p>
+                    <div class="d-flex flex-wrap">
+                        <input type="text" name="text" placeholder="first name" id=""
+                            class="text-white col-6 bg-dark my-2  p-2 border-end border-white border-5">
+                        <input type="text" name="text" placeholder="last name" id=""
+                            class="text-white col-6 bg-dark my-2 p-2 border-end border-white border-5">
+                        <input type="text" name="Email" placeholder="email address" id=""
+                            class="text-white col-6 bg-dark p-2 border-end border-white border-5">
+                        <input type="text" name="text" placeholder="mobile no." id=""
+                            class="text-white col-6 bg-dark p-2 border-end border-white border-5">
+                        <textarea name="" id="" cols="30" rows="5" class="col-12 bg-dark text-white"
+                            placeholder="message"></textarea>
+                        <button class="btn btn-secondary text-white col-12 mt-2">GET TRIAL</button>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark text-white" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <!-- @%@%@%@%@%@%@%@%@%@%@%@%@ HEADER END @%@%@%@%@%@%@%@%@%@%@%@%@%@ -->
+
+    <!-- *@*@*@*@*@*@*@********* BODY START *********@*@*@*@*@*@*@ -->
+
+    <!-- PROGRAMS -->
+    <div class="container mt-5">
+        <div class="row" style="text-align: center;">
+            <div class="col-12 mb-2">
+                <h2 id="programs" class="fw-bold txtcolor">PROGRAMS</h2>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card ">
+                    <img src="..//html/img/spartanicon2.png" alt="" height="350px" style="object-fit:contain;">
+                    <div class="card-body bg-dark text-white">
+                        <h4 class="card-title">
+                            TRANSFORMATION</h4>
+                        <p class="card-text">1-12 Weeks
+                            available</p>
+                        <a href="transformation.html" class="card-link txtcolor">View Program</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card ">
+                    <img src="..//html/img/spartanicon3.avif" alt="" height="350px" style="object-fit:fill;">
+                    <div class="card-body bg-dark text-white">
+                        <h4 class="card-title">WEIGHT LOSS</h4>
+                        <p class="card-text">1-12 Weeks
+                            available</p>
+                        <a href="transformation.html" class="card-link txtcolor">View Program</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="card ">
+                    <img src="..//html/img/spartanicon4.jpg" alt="" height="350px" style="object-fit: contain;">
+                    <div class="card-body bg-dark text-white">
+                        <h4 class="card-title">REJUVENATION</h4>
+                        <p class="card-text">1-12 Weeks
+                            available</p>
+                        <a href="transformation.html" class="card-link txtcolor">View Program</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PROGRAMS -->
+
+    <!-- SUPPLEMENTS -->
+    <div class="container my-5" id="Supplements">
+        <div class="row">
+            <div class="col">
+                <h2 class="font-weight-light fw-bold txtcolor" style="text-align: center;">SUPPLEMENTS</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container my-3 bg-white">
+        <div class="row py-5 justify-content-center yellowvarient">
+            <div id="recipeCarousel" class="carousel carousel_01 slide" data-bs-ride="carousel">
+                <div class="carousel-inner " role="listbox">
+                    <div class="carousel-item justify-content-center carousel-item_01 active">
+                        <div class="col-md-3">
+                            <div class="card p-4 bg-transparent" style="line-height:8px;">
+                                <div class="card-img">
+                                    <img src="../html/img/mywheyprotein.jpg" class="img-fluid">
+                                </div>
+                                <p style="text-align: center;margin-top:15px;">Whey Protein</p>
+                                <p class="btn btn-dark yellowvarient text-white"
+                                    style="text-align: center;font-weight:700;" data-bs-toggle="modal"
+                                    data-bs-target="#myModal2">Shop Now</p>
+                                <!-- <div class="card-img-overlay">Slide 1</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item justify-content-center carousel-item_01">
+                        <div class="col-md-3">
+                            <div class="card p-4 bg-transparent" style="line-height:8px;">
+                                <div class="card-img justify-content-center"><img
+                                        src="../html/img/impactwheyisolate.jpg" class="img-fluid"></div>
+                                <p style="text-align: center;margin-top:15px;">Impact Whey Isolate</p>
+                                <p class="btn btn-dark text-white" style="text-align: center;font-weight:700;"
+                                    data-bs-toggle="modal" data-bs-target="#myModal2">Shop Now</p>
+                                <!-- <div class="card-img-overlay">Slide 2</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item justify-content-center carousel-item_01">
+                        <div class="col-md-3">
+                            <div class="card p-4 bg-transparent" style="line-height: 8px;">
+                                <div class="card-img"> <img src="../html/img/bcaa.jpg" class="img-fluid"> </div>
+                                <p style="text-align: center;margin-top:15px;">BCAAs</p>
+                                <p class="btn btn-dark text-white" style="text-align: center;font-weight:700;"
+                                    data-bs-toggle="modal" data-bs-target="#myModal2">Shop Now</p>
+                                <!-- <div class="card-img-overlay">Slide 3</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item justify-content-center carousel-item_01">
+                        <div class="col-md-3">
+                            <div class="card p-4 bg-transparent" style="line-height: 8px;">
+                                <div class="card-img"> <img src="../html/img/creatinemonohydrate.jpg" class="img-fluid">
+                                </div>
+                                <p style="text-align: center;margin-top:15px;">Creatine Monohydrate</p>
+                                <p class="btn btn-dark text-white" style="text-align: center;font-weight:700;"
+                                    data-bs-toggle="modal" data-bs-target="#myModal2">Shop Now</p>
+                                <!-- <div class="card-img-overlay">Slide 4</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item justify-content-center carousel-item_01">
+                        <div class="col-md-3">
+                            <div class="card p-4 bg-transparent" style="line-height:8px;">
+                                <div class="card-img"> <img src="../html/img/l-glutamine.jpg" class="img-fluid"> </div>
+                                <p style="text-align: center;margin-top:15px;">L-Glutamine</p>
+                                <p class="btn btn-dark text-white" style="text-align: center;font-weight:700;"
+                                    data-bs-toggle="modal" data-bs-target="#myModal2">Shop Now</p>
+                                <!-- <div class="card-img-overlay">Slide 5</div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </a> <a
+                    class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </a>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal2">
+            <div class="modal-dialog ">
+                <div class="modal-content yellowvarient">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h1>Spartan</h1><img src="../html/img/spartanicon.png" alt="">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body" style="text-align: center;">
+                        <h3>Product Name</h3>
+                        <p>About the Product</p>
+                        <p class="text-success">Price : Rs. 5,199.00 </p>
+                        <div>
+                            <img src="../html/img/bcaa.jpg" alt="">
+                        </div>
+                        <p class="mt-3">
+
+                            Quantity: <input type="number" name="" id="" class="inputstyle me-5">
+
+                            Amount:
+                            <select>
+                                <option>500g</option>
+                                <option>1kg</option>
+                                <option>2kg</option>
+                            </select>
+                        </p>
+                        <p>
+                            Subtotal :
+                        </p>
+                        <div class="mt-4">
+                            <a href="" class="btn btn-dark txtcolor">Checkout</a>
+                        </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark text-white" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- SUPPLEMENTS -->
+
+    <!-- GALLERY -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="txtcolor" style="text-align: center;">GALLERY</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row yellowvarient p-3">
+            <div class="col d-flex flex-wrap justify-content-center p-4">
+                <div class="col-12 col-md-4 p-3">
+                    <div class="col"><a href="../html/img/Gimg1.jpg"><img src="../html/img/Gimg1.jpg" alt=""
+                                class="dsize"></a></div>
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <div class="col"><a href="../html/img/Gimg4.jpg"><img src="../html/img/Gimg4.jpg" alt=""
+                                class="dsize"></a></div>
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <div class="col"><a href="../html/img/Gimg8.jpg"><img src="../html/img/Gimg8.jpg" alt=""
+                                class="dsize"></a></div>
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <div class="col"><a href="../html/img/Gimg13.jpeg"><img src="../html/img/Gimg13.jpeg" alt=""
+                                class="dsize"></a></div>
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <div class="col"><a href="../html/img/Gimg15.jpg"><img src="../html/img/Gimg15.jpg" alt=""
+                                class="dsize"></a></div>
+                </div>
+                <div class="col-12 col-md-4 p-3">
+                    <div class="col"><a href="../html/img/Gimg16.jpg"><img src="../html/img/Gimg16.jpg" alt=""
+                                class="dsize"></a></div>
+                </div>
+            </div>
+            <div class="col-12" style="text-align: center;">
+                <a href="Gallery.html" class="btn btn-dark text-warning">View More</a>
+            </div>
+        </div>
+    </div>
+    <!-- GALLERY -->
+
+    <!-- *@*@*@*@*@*@*@********* BODY END *********@*@*@*@*@*@*@*@ -->
+
+    <!-- &&##&&##&&##&&##&&##&&##&&##&& FOOTER START &&##&&##&&##&&##&&##&&##&&## -->
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 p-5 txtcolor">
+                <h1>Spartan<img src="../html/img/spartaniconyellow.png" alt=" "></h1>
+                <div class="mt-5 ">
+                    <p>Block A,Desu wali gali,Mahipalpur,New Delhi</p>
+                    <p><a href="tel:9117996473" class="txtcolor"><b>Ph:</b>+91 9117996473</a></p>
+                    <p><a href="mailto:uchihaitachi1982003@gmail.com"
+                            class="txtcolor"><b>Email:</b>Uchihaitachi198@gmail.com</a></p>
+                    <p><b>We're Open 24/7!</b></p>
+                    <p><a href="termsandconditions.html" class="txtcolor">Terms and conditions</a></p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 p-5 txtcolor" style="text-align: center;">
+                <h4>Quick Links</h4>
+                <p class="mt-5"><a href="index.html" class="txtcolor">Home</a></p>
+                <p><a href="transformation.html" class="txtcolor">Programs</a></p>
+                <p><a href="BCAAs.html" class="txtcolor">Supplements</a></p>
+                <p><a href="Gallery.html" class="txtcolor">Gallery</a></p>
+                <p><a href="membership.html" class="txtcolor">Membership</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 txtcolor">
+                <h4 style="text-align: center;">About us</h4>
+                <p class="mt-5">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, dolor? Placeat quaerat reprehenderit
+                    tenetur voluptatibus labore illum sed quibusdam, quasi nemo aliquam cum dolorum libero laboriosam
+                    neque, dicta eaque eum obcaecati, omnis quos corporis possimus sapiente sint dolore. Aliquid et
+                    voluptas illo odit suscipit amet animi atque nobis veritatis cupiditate!
+                </p>
+            </div>
+            <div class="col-10 col-sm-7 p-4" style="text-align:end;">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram "
+                        style="color:gold;font-size:2em;"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter ms-3 "
+                        style="color: gold;font-size: 2em;"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook ms-3 "
+                        style="color: gold;font-size: 2em;"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=9117996473&text=Hi there!!"><i
+                        class="fa-brands fa-square-whatsapp ms-3 " style="color: gold;font-size: 2em;"></i></a>
+            </div>
+            <div class="col-7 col-sm-5 p-4" style="text-align: end;">
+                <a href="#top"><i class="fa-solid fa-square-caret-up" style="color: gold;font-size: 2em;"></i></a>
+
+            </div>
+        </div>
+    </div>
+    <!-- &&##&&##&&##&&##&&##&&##&&##&& FOOTER END ##&&##&&##&&##&&##&&##&&##&&## -->
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+<script>
+    let items = document.querySelectorAll('.carousel_01 .carousel-item_01')
+
+    items.forEach((el) => {
+        const minPerSlide = 4
+        let next = el.nextElementSibling
+        for (var i = 1; i < minPerSlide; i++) {
+            if (!next) {
+                // wrap carousel by using first child
+                next = items[0]
+            }
+            let cloneChild = next.cloneNode(true)
+            el.appendChild(cloneChild.children[0])
+            next = next.nextElementSibling
+        }
+    })
+</script>
+
+</html>

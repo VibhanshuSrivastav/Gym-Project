@@ -1,0 +1,76 @@
+body{
+    background-image:linear-gradient(to top,hsla(43, 100%, 72%, 0.306),hsla(0, 0%, 0%, 0.53)) ,url(../img/spaceback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit:fill;
+}
+
+.fontsize{
+    font-size:4em;
+}
+
+/* transformation */
+.transformationbg{
+    background-image: linear-gradient(to right,rgba(193,155,0,0.6),rgba(0,0,0,0.9)),url(../img/transformationbg.jpg);
+}
+
+.transformationbanner{
+    background-image: linear-gradient(to right,rgba(193,155,0,0.6),rgba(0,0,0,0.7)),url(../img/transformationbanner.webp);
+    
+    height: 300px;
+}
+
+
+/* transformation */
+
+
+/* gallery css */
+
+.background2{
+    background-image: linear-gradient(to right,rgba(193,155,0,0.6),rgba(0,0,0,0.9)),url(../img/gallerybody.jpg);
+}
+
+.dsize{
+    height:300px;
+    width:300px;
+    object-fit:cover;
+    border-top-left-radius:20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 10px 10px 8px rgb(213, 163, 70);
+}
+.dsize:hover{
+    box-shadow: 10px 10px 8px black;
+}
+
+.gallerybanner{
+    background-image:linear-gradient(to left,rgba(193,155,0,0.7),rgba(0,0,0,0.9)),url(../img/membershipbanner.jpg) ;
+    background-size: 100% ;
+    height:150px;
+    box-shadow: 10px 10px 8px black;
+}
+
+/* gallery css */
+
+
+/* Membership css */
+.membershipbanner{
+    background-image:linear-gradient(to right,rgba(193,155,0,0.9),rgba(0,0,0,0.7)),url(../img/membershipbanner.jpg) ;
+    background-size: 100% ;
+    height:150px;
+    box-shadow: 10px 10px 8px black;
+}
+/* Membership css */
+
+/* color combo */
+.yellowvarient{
+    background-color: hsla(43, 100%, 72%, 0.977);
+}
+
+.txtcolor{
+    color:  hsla(43, 100%, 72%, 0.977);
+}
+/* color combo */
+
+.inputstyle{
+    width:3em;
+}
